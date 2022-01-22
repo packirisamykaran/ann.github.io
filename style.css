@@ -375,6 +375,8 @@ header{
 
 footer>.container{
   display: flex;
+  row-gap: 1rem;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   padding: 2rem 0;
@@ -416,8 +418,8 @@ footer>.container{
     
     footer>.container{
       display: flex;
-      flex-direction: column;
-        row-gap: 1rem
+      flex-direction: row;
+        
       justify-content: space-evenly;
       align-items: center;
       padding: 2rem 0;
